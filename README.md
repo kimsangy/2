@@ -2,6 +2,7 @@
 DSCI510 Final Project
 
 <How to run code>
+    
     - 1. Save final_data_collection.py file 
     
     - 2. Create 'source_data' folder at the same path with final_data_collection.py
