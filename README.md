@@ -1,7 +1,7 @@
 # DSCI510-Final-Project
 DSCI510 Final Project
 
-# How to run code
+# How to run data collection code run
     
     - 1. Save final_data_collection.py file 
     
