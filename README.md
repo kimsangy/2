@@ -1,7 +1,7 @@
 # DSCI510-Final-Project
 DSCI510 Final Project
 
-NAme:  Correlation between World Cup hosting and participation and GDP(per capita)
+Name:  Correlation between World Cup hosting and participation and GDP(per capita)
 
 
 # How to run data collection code run
