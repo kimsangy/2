@@ -13,6 +13,6 @@ DSCI510 Final Project
     
     - 5. Run final_data_collection.py
     
-    - 6. Then 2 files(dataset1_Participating_Countries_GDP.csv, dataset2_Hosting_Countries_GDP.csv) will be created in 'output_data' folder
+    - 6. Then, 2 files(dataset1_Participating_Countries_GDP.csv, dataset2_Hosting_Countries_GDP.csv) will be created in 'output_data' folder
 
 
