@@ -39,12 +39,6 @@ def world_cup_qulified_teams_data_from_file(filename): #Participating_Countries
         else :
             temp_dic[csv['team_code'][i]] = temp_dic[csv['team_code'][i]] + 1
 
-#    print(temp_dic)
-
-#    df = pd.DataFrame([temp_dic.keys(), temp_dic.values()])
-#   df.columns = ['names', 'num']
-#    df = pd.DataFrame.from_dict(temp_dic, orient ="index", columns = ['num'])
-
 
     df = pd.DataFrame()
     df['TEAM_CODE'] = temp_dic.keys()
@@ -76,7 +70,6 @@ def make_new_dataset1_qualified_teams_gdp(filename2,filename3):
     for i in range(len(df2)):
         for j in range(len(df1)):
             if df2['Country Code'][i] == df1['TEAM_CODE'][j]:
-#                print(df1['TEAM_CODE'][j])
                 df1['2020_GDP'][j] = df2['2020'][i]                
                 df1['2021_GDP'][j] = df2['2021'][i]
 #    print(df1)
@@ -112,7 +105,5 @@ if __name__ == '__main__':
     make_new_dataset1_qualified_teams_gdp(filename2,filename3)
     make_new_dataset2_host_teams_gdp(filename1,filename3)
 
- #   world_cup_qulified_teams_data_from_file(filename2)
- #   gdp_data_from_file(filename3)
 
     
