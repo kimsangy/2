@@ -22,6 +22,7 @@ def world_cup_host_countries_from_file(filename): #host_Countries
     df = pd.DataFrame.from_dict(temp_dic, orient = 'index', columns = ['TEAM_CODE', 'HOST_YEAR'])
 
     df['BEFORE_YEAR_GDP'] = 0
+    df['HOST_YEAR_GDP'] = 0    
     df['AFTER_YEAR_GDP'] = 0
 
  #   print(df)
@@ -90,8 +91,10 @@ def make_new_dataset2_host_teams_gdp(filename1,filename3):
             if df2['Country Code'][i] == df1['TEAM_CODE'][j]:
                 if(int(df1['HOST_YEAR'][j]) >= 1960):
                     before_year = int(df1['HOST_YEAR'][j])-1
+                    host_year = int(df1['HOST_YEAR'][j])
                     after_year = int(df1['HOST_YEAR'][j])+1                   
-                    df1['BEFORE_YEAR_GDP'][j] = df2[str(before_year)][i]                
+                    df1['BEFORE_YEAR_GDP'][j] = df2[str(before_year)][i]
+                    df1['HOST_YEAR_GDP'][j] = df2[str(host_year)][i]                               
                     df1['AFTER_YEAR_GDP'][j] = df2[str(after_year)][i]
 
  #   print(df1)
