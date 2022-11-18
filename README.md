@@ -4,7 +4,9 @@ DSCI510 Final Project
 Name:  Correlation between World Cup hosting and participation and GDP(per capita)
 
 
-# How to run data collection code run
+# How to run code run
+    
+ Collection Code   
     
     - 1. Save final_data_collection.py file 
     
