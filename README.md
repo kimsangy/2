@@ -24,4 +24,4 @@ Name:  Correlation between World Cup hosting and participation and GDP(per capit
 
   Analysis Code
   
-    -1. 
+    -1. Save final_data_analysis.py file  and 'output_data' folder(dataset1_Participating_Countries_GDP.csv, dataset2_Hosting_Countries_GDP.csv)
